@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Smoke Test suite" parallel="false">
+
+  <listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+      <listener class-name="evati.qa.tests.TestListener"/>
+  </listeners>
+  
+  
+  <!-- dtiverType = Firefox, Chrome -->
+  <parameter name="driverType" value="Chrome"></parameter>
+  
+  <!-- Base URL -->
+  <parameter name="url" value="https://app-qa.findelevation.com/signup"></parameter>
+
+ 
+  <test name="Smoke Test Scenarios">
+    <classes>
+      <class name="evati.qa.tests.SmokeTest"/>
+    </classes>
+  </test>
+    
+  
+</suite>

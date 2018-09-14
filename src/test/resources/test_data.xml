@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test>   
+  <userData>
+		
+      	<param name="password">App@0000</param>
+      	<param name="firstName">Test</param>
+      	<param name="lastName">user</param>
+      	<param name="address1">104 masters ln</param>
+      	<param name="address2">Suite</param>
+      	<param name="city">Safety harbor</param>
+      	<param name="state">FL</param>
+      	<param name="zipcode">34695</param>
+      	<param name="phone">7412523456</param>
+      	<param name="SSN">256985698</param>
+      	
+      	<param name="goalAmount">5000</param>
+      	<param name="Goalname">Home</param>
+      
+      	<!--  BankLogin -->
+      	<param name="bankUserId">user_good</param>
+      	<param name="bankPassword">pass_good</param>
+      	
+  </userData>
+</test>
+
